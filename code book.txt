@@ -1,0 +1,30 @@
+Variable Names
+
+1. "subject" 
+2. "activity" 
+3. "body_acc_x"  
+4. "body_acc_y"  
+5. "body_acc_z" 
+6. "body_gyro_x"
+7. "body_gyro_y" 
+8. "body_gyro_z" 
+9. "total_acc_x" 
+10."total_acc_y" 
+11."total_acc_z"
+
+Steps followed in script to get a tidy data from raw data
+
+1. Importing necessary packages
+2. Reading raw data from train folder 
+3. converting to time series object for train data 
+4. To include activities name into train data set
+5. calculate mean of 128 readings of each variables for train data
+6. Reading raw data from test folder 
+7. converting to time series object for test data
+8. To include activities name into test data set
+9. calculate mean of 128 readings of each variables for test data
+10. To combine train and test data
+11. Mean and standard deviation of each measurement
+12. To create another data set with avg of variables for each suject and activity
+13. loop to create avg values
+14. Export tidy data set
